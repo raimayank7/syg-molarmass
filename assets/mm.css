@@ -1,0 +1,18 @@
+/* Molar Mass: own styles on top of the shared frame */
+.mm-lead{font-size:1.08rem;color:var(--soft)}
+.mm-eq{font-family:var(--mono);background:var(--surface2);border-radius:8px;padding:10px 14px;overflow-x:auto;white-space:nowrap}
+.mm-cta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.mm-h{margin:0 0 10px;font-size:1.15rem}
+.mm-ans .big{margin:0}
+.mm-two{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.mm-bar{display:block;height:6px;border-radius:6px;background:var(--line);margin-top:4px;min-width:60px;overflow:hidden}
+.mm-bar i{display:block;height:100%;background:var(--accent);border-radius:6px}
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}
+.result h2 small,.prose h2 small{font-weight:400;color:var(--soft);font-size:.85em}
+.mm-pq>li{margin:14px 0;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.mm-pq p{margin:.3em 0}
+input[inputmode=decimal]{width:100%;min-height:46px;padding:10px 12px;font:inherit;font-size:1rem;color:var(--ink);background:var(--field);border:1px solid var(--field-line);border-radius:10px}
+sub,sup{line-height:0}
+[hidden]{display:none!important}
+@media print{.mm-cta,.chips{display:none!important}}
+.btn.sm{min-height:40px;display:inline-flex;align-items:center}
